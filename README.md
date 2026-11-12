@@ -12,6 +12,14 @@
 >
 > 🗑 **שום דבר לא נמחק בלי אישור שלך.** והמחיקה היא לסל המיחזור, כך שאפשר להתחרט.
 
+> [!WARNING]
+> **⚠ חשוב: לפני שמוחקים, שים לב**
+>
+> - **בדוק היטב מה מסומן למחיקה לפני כל אישור.** התוכנה מציעה, אבל ההחלטה והאחריות שלך. היא בוחרת איזה עותק לשמור לפי כללים טכניים (רזולוציה, גודל, נתיב), ולא יודעת איזו תיקייה חשובה לך.
+> - **אל תמחק את העותקים שבתיקיות המסודרות ותשאיר את התמונות בתפזורת.** אם אותה תמונה נמצאת גם באלבום מסודר וגם בתיקייה כמו "הורדות", ודא שהעותק שנמחק הוא זה שבתפזורת.
+> - **אל תמחק תיקיית גיבוי שאתה רוצה לשמור כגיבוי.** מבחינת התוכנה, עותק בגיבוי הוא כפילות כמו כל כפילות אחרת. הדרך הבטוחה ביותר היא לא לסרוק את תיקיית הגיבוי בכלל.
+> - **השימוש בתוכנה הוא על אחריות המשתמש בלבד.** היוצר לא אחראי לשום נזק, כולל אובדן קבצים, שייגרם מהשימוש בה. מומלץ לגבות את התמונות לפני מחיקה בכמות גדולה.
+
 ## למי זה מתאים
 
 לכל מי שיש לו במחשב הרבה תמונות שהצטברו עם השנים: גיבויים שהועתקו פעמיים, תמונות מהטלפון שהורדו כמה פעמים, אותה תמונה בגדלים שונים, ותיקיות שכבר לא ברור מה יש בהן. לא צריך ידע טכני.
@@ -77,7 +85,7 @@ MultiPic היא **תוכנה חינמית (Freeware)**: חינם לשימוש, �
 - ✅ מותר להשתמש בחינם, בכל מספר מחשבים, בבית וגם בעסק.
 - ✅ מותר להעביר לאחרים את קובץ ההתקנה המקורי, בחינם, או לשלוח קישור לדף הזה.
 - ❌ אסור למכור את התוכנה, לשנות אותה או לפרק אותה.
-- ⚠ התוכנה ניתנת "כמות שהיא", בלי אחריות. לפני מחיקה בכמות גדולה, מומלץ לגבות את התמונות.
+- ⚠ התוכנה ניתנת "כמות שהיא", בלי אחריות. **השימוש בה הוא על אחריות המשתמש בלבד**, והיוצר לא אחראי לשום נזק שייגרם מהשימוש בה, כולל אובדן קבצים. לפני מחיקה בכמות גדולה, מומלץ לגבות את התמונות.
 
 הנוסח המלא: [LICENSE.txt](LICENSE.txt). התוכנה כוללת רכיבי קוד פתוח, ורישיונותיהם מצורפים לתוכנה (בתיקייה `licenses` שבתיקיית ההתקנה).
 
@@ -101,6 +109,14 @@ abh2015@gmail.com
 > 🧮 **No artificial intelligence (AI).** Every comparison, filter and recommendation is based on fixed, transparent calculations: comparing file contents and pixels, date, place, size and sharpness. No model guesses anything, and the same folder always gives the same results.
 >
 > 🗑 **Nothing is deleted without your approval.** Deleted files go to the Recycle Bin, so you can change your mind.
+
+> [!WARNING]
+> **⚠ Important: before you delete**
+>
+> - **Check carefully what is selected before every confirmation.** MultiPic suggests, but the decision and the responsibility are yours. It picks which copy to keep by technical rules (resolution, size, path) and does not know which folder matters to you.
+> - **Do not delete the copies in your organised folders and keep the loose ones.** If the same photo is both in an organised album and in a folder like "Downloads", make sure the copy being deleted is the loose one.
+> - **Do not delete a backup folder you want to keep as a backup.** To MultiPic, a copy in a backup is a duplicate like any other. The safest way is not to scan the backup folder at all.
+> - **You use the program entirely at your own risk.** The author is not liable for any damage, including loss of files, resulting from its use. Back up your photos before deleting many files.
 
 ## Who it is for
 
@@ -167,7 +183,7 @@ MultiPic is **freeware**: free to use, but its code is not open.
 - ✅ Use it free of charge, on any number of computers, at home or at work.
 - ✅ Give others the original installer, free of charge, or send them a link to this page.
 - ❌ Do not sell, modify or decompile it.
-- ⚠ It is provided "as is", without warranty. Back up your photos before deleting many files.
+- ⚠ It is provided "as is", without warranty. **You use it entirely at your own risk**, and the author is not liable for any damage resulting from its use, including loss of files. Back up your photos before deleting many files.
 
 Full text: [LICENSE.txt](LICENSE.txt). The program includes open-source components, whose licences come with it (in the `licenses` folder of the installation folder).
 

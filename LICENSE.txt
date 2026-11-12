@@ -18,6 +18,8 @@ MultiPic היא תוכנה חינמית (Freeware): מותר להשתמש בה �
 3. אחריות
    התוכנה ניתנת "כמות שהיא" (AS IS), בלי אחריות מכל סוג.
    התוכנה מוחקת ומעבירה קבצים לפי הבחירה שלך. יש בה אמצעי בטיחות, אבל אין ביטחון מוחלט שלא תהיה תקלה. לכן מומלץ לשמור גיבוי של התמונות לפני מחיקה בכמות גדולה, ולבדוק מה מסומן לפני שמאשרים.
+   יש לבדוק היטב מה מסומן לפני כל מחיקה: לא למחוק את העותקים שבתיקיות המסודרות ולהשאיר את התמונות בתפזורת, ולא למחוק תיקיית גיבוי שרוצים לשמור כגיבוי.
+   השימוש בתוכנה הוא על אחריות המשתמש בלבד.
    ככל שהחוק מתיר, היוצר לא יהיה אחראי לשום נזק שייגרם מהשימוש בתוכנה, כולל אובדן קבצים.
 
 4. רכיבי צד שלישי
@@ -54,6 +56,8 @@ MultiPic is freeware: you may use it free of charge, but its code is not open an
 3. No warranty
    The program is provided "AS IS", without warranty of any kind.
    The program deletes and moves files as you choose. It has safety measures, but there is no absolute guarantee against a fault. Keep a backup of your photos before deleting many files, and check what is selected before you confirm.
+   Check carefully what is selected before every deletion: do not delete the copies in your organised folders and keep the loose ones, and do not delete a backup folder you want to keep as a backup.
+   You use the program entirely at your own risk.
    To the extent the law allows, the author is not liable for any damage resulting from use of the program, including loss of files.
 
 4. Third-party components
