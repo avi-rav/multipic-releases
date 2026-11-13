@@ -2,7 +2,7 @@
 
 # MultiPic
 
-**סדר בספריית התמונות שלך: מוצאת תמונות כפולות, דומות ומיותרות, ומאפשרת לפנות מקום בבטחה.**
+**סדר בספריית התמונות שלך: מוצאת תמונות וסרטונים כפולים, תמונות דומות ומיותרות, ומאפשרת לפנות מקום בבטחה.**
 
 **[⬇ הורדת MultiPic (חינם, ל-Windows)](https://github.com/avi-rav/multipic-releases/releases/latest/download/MultiPic-Setup.exe)**
 
@@ -11,6 +11,8 @@
 > 🧮 **בלי בינה מלאכותית (AI).** כל השוואה, סינון והמלצה מבוססים על חישובים קבועים ושקופים: השוואה של תוכן הקבצים והפיקסלים, תאריך, מיקום, גודל וחדות. אין "ניחושים" של מודל, ואותה תיקייה תיתן תמיד את אותן תוצאות.
 >
 > 🗑 **שום דבר לא נמחק בלי אישור שלך.** והמחיקה היא לסל המיחזור, כך שאפשר להתחרט.
+>
+> 🪟 **נפתחת בחלון משלה,** כמו כל תוכנה רגילה, ולא בדפדפן.
 
 > [!WARNING]
 > **⚠ חשוב: לפני שמוחקים, שים לב**
@@ -44,6 +46,18 @@
 
 בכל קבוצה התוכנה ממליצה איזה עותק לשמור (הגדול והאיכותי ביותר), ואפשר לבחור אחר.
 
+### סרטונים כפולים
+מוצאת את אותו סרטון גם בשם אחר, בתיקייה אחרת או בקידוד אחר:
+
+| רמה | מה זה | לפי מה משווים | מה התוכנה עושה |
+|---|---|---|---|
+| **זהים** | אותו קובץ בדיוק | טביעת אצבע (SHA-256) של כל תוכן הקובץ. רגע לפני מחיקה הקובץ מושווה שוב, בית אחר בית, לעותק שנשאר | מסמנת את העותקים המיותרים, ומשאירה את הטוב ביותר |
+| **אותו סרטון, קידוד שונה** | אותו סרטון ברזולוציה, דחיסה או פורמט אחר, למשל עותק שנשלח בוואטסאפ | 20 תמונות שנדגמות לאורך הסרטון ומושוות חזותית, וגם אורך הסרטון ויחס הגובה-רוחב | מציגה, ואתה מחליט. שום דבר לא מסומן מראש |
+
+ברמה "אותו סרטון", שני סרטונים נחשבים אותו סרטון רק כשכל התנאים מתקיימים: האורך שונה בשנייה לכל היותר (או ב-1% בסרטון ארוך), יחס הגובה-רוחב כמעט זהה, ולפחות 80% מהתמונות שנדגמו תואמות. תמונות שחורות או אחידות, כמו מעבר בין סצנות, לא נספרות. אפשר לצפות בכל העותקים זה לצד זה, והפרמטרים המלאים מופיעים בתוכנה, בהגדרות > פרטים טכניים.
+
+> ⚠ **ברמה "אותו סרטון" כדאי לצפות בסרטונים לפני מחיקה.** הפסקול לא נבדק, וגם לא מה שבין התמונות שנדגמו. לכן סרטון עם דיבוב או מוזיקה אחרים, או סרטון שהוחלף בו קטע קצר, עלול להיראות כמו אותו סרטון.
+
 ### תיקיות כפולות
 מוצאת תיקיות שהתמונות שבהן כבר קיימות בתיקייה אחרת, למשל גיבוי ישן. אפשר לנקות תיקייה כזאת בלחיצה: נמחקות רק תמונות שיש להן עותק זהה בתיקייה השנייה, ותמונות שאין להן עותק נשארות (או מועברות לתיקייה השנייה, אם תבחר בכך).
 
@@ -54,17 +68,22 @@
 מראה תמונות שלא נפתחות או נפתחות רק בחלקן, וכשאפשר מציעה עותק תקין שלהן.
 
 ### גלריה
-כל התמונות, ובלשונית נפרדת כל הסרטונים, במקום אחד, עם סינון לפי **שנה וחודש**, **טווח תאריכים**, **מדינה ועיר** (לפי מיקום הצילום) ו**תיקייה**. אפשר לסמן תמונות וסרטונים (גם טווח שלם עם Shift) ולמחוק אותם, או להעביר ולהעתיק אותם לתיקייה, למשל כדי ליצור אלבום.
+כל התמונות במקום אחד, ובלשונית נפרדת כל הסרטונים, ממוינים לפי תאריך הצילום מהחדש לישן. אפשר לסנן לפי **שנה וחודש**, **טווח תאריכים**, **מדינה ועיר** (לפי מיקום הצילום) ו**תיקייה**. אפשר לסמן תמונות וסרטונים (גם טווח שלם עם Shift) ולמחוק אותם, או להעביר ולהעתיק אותם לתיקייה, למשל כדי ליצור אלבום. סרטון אפשר גם לנגן ישר מהגלריה.
+
+- **תאריך ומקום של סרטונים:** נקראים מתוך קובצי MP4, MOV, M4V ו-3GP, כמו שהם נשמרים בטלפוני אנדרואיד ובאייפון. כשאין בסרטון תאריך צילום, מוצג תאריך הקובץ, מסומן ב-~.
+- **סרטונים מוואטסאפ:** וואטסאפ מוחקת מהסרטון את תאריך הצילום ואת המיקום, ולכן התאריך שלו הוא בדרך כלל מועד השליחה, ואין לו מקום.
+- **בלי תאריך:** לתמונות ולסרטונים שאין להם תאריך יש אפשרות משלהם בסינון, "ללא תאריך".
 
 ### ועוד
 - **יומן מחיקות:** כל מה שנמחק נרשם, עם המקום שבו הוא היה והעותק שנשאר. אפשר לייצא לאקסל (CSV).
 - **סריקה חוזרת מהירה:** בפעם הבאה נבדקים רק קבצים חדשים או כאלה שהשתנו.
 - **עברית ואנגלית.**
-- סוגי קבצים: JPG, PNG, HEIC (אייפון), WEBP, GIF, BMP, TIFF.
+- **בוחרים מה לסרוק:** תמונות וסרטונים, רק תמונות, או רק סרטונים.
+- סוגי קבצים: תמונות JPG, PNG, HEIC (אייפון), WEBP, GIF, BMP, TIFF. סרטונים MP4, MOV, M4V, AVI, MKV, WMV, 3GP, MTS, M2TS, MPG, MPEG, WEBM.
 
 ## בטיחות
 
-- **תמיד נשאר עותק אחד לפחות** מכל תמונה כפולה.
+- **תמיד נשאר עותק אחד לפחות** מכל תמונה או סרטון כפולים.
 - רגע לפני מחיקה, התוכנה בודקת שוב שהקובץ לא השתנה ושהעותק שנשאר באמת קיים. אם משהו לא תואם, הקובץ לא נמחק.
 - בכונן שאין בו סל מיחזור (למשל דיסק-און-קי או כונן רשת) התוכנה עוצרת ושואלת מה לעשות.
 - התוכנה לא כותבת שום דבר לתיקיית התמונות שלך. המידע שלה נשמר בנפרד, בתיקיית הנתונים שלה.
@@ -100,7 +119,7 @@ abh2015@gmail.com
 
 # MultiPic (English)
 
-**Tidy up your photo library: MultiPic finds duplicate, similar and unneeded photos, and helps you free up space safely.**
+**Tidy up your photo library: MultiPic finds duplicate photos and videos, similar and unneeded photos, and helps you free up space safely.**
 
 **[⬇ Download MultiPic (free, for Windows)](https://github.com/avi-rav/multipic-releases/releases/latest/download/MultiPic-Setup.exe)**
 
@@ -109,6 +128,8 @@ abh2015@gmail.com
 > 🧮 **No artificial intelligence (AI).** Every comparison, filter and recommendation is based on fixed, transparent calculations: comparing file contents and pixels, date, place, size and sharpness. No model guesses anything, and the same folder always gives the same results.
 >
 > 🗑 **Nothing is deleted without your approval.** Deleted files go to the Recycle Bin, so you can change your mind.
+>
+> 🪟 **Opens in a window of its own,** like any other program, not in your browser.
 
 > [!WARNING]
 > **⚠ Important: before you delete**
@@ -142,6 +163,18 @@ Finds the same photo even under another name or in another folder, grouped by ho
 
 In every group MultiPic recommends which copy to keep (the largest, best-quality one), and you can pick another.
 
+### Duplicate videos
+Finds the same video even under another name, in another folder or in another encoding:
+
+| Level | What it means | How it is compared | What MultiPic does |
+|---|---|---|---|
+| **Identical** | Exactly the same file | A fingerprint (SHA-256) of the whole file content. Right before deleting, the file is compared again, byte for byte, with the copy being kept | Marks the extra copies and keeps the best one |
+| **Same video, different encoding** | The same video in another resolution, compression or format, for example a copy sent over WhatsApp | 20 frames sampled along the video and compared visually, plus the video's length and aspect ratio | Shows them; you decide. Nothing is selected in advance |
+
+At the "same video" level, two videos count as the same only when every condition holds: their lengths differ by at most one second (or 1% for a long video), their aspect ratios are nearly the same, and at least 80% of the sampled frames match. Black or uniform frames, such as a fade between scenes, are not counted. All copies can be watched side by side, and the full parameters are listed in the program, under Settings > Technical details.
+
+> ⚠ **At the "same video" level, watch the videos before deleting.** The soundtrack is not checked, and neither is anything between the sampled frames. So a video with different dubbing or music, or one where a short section was replaced, may look like the same video.
+
 ### Duplicate folders
 Finds folders whose photos already exist in another folder, such as an old backup. Cleaning one takes a click: only photos with an identical copy in the other folder are deleted, and photos without a copy stay (or move to the other folder, if you choose).
 
@@ -152,17 +185,22 @@ Lists to review: **blurry** photos, **screenshots**, and **very small** images. 
 Shows photos that will not open, or open only partly, and offers a good copy when there is one.
 
 ### Gallery
-All your photos, and on a separate tab all your videos, in one place, filtered by **year and month**, **date range**, **country and city** (from where the photo was taken) and **folder**. Select photos and videos (a whole range with Shift) to delete them, or move or copy them into a folder, for example to make an album.
+All your photos in one place, and on a separate tab all your videos, sorted by the date taken, newest first. Filter by **year and month**, **date range**, **country and city** (from where it was taken) and **folder**. Select photos and videos (a whole range with Shift) to delete them, or move or copy them into a folder, for example to make an album. Videos can also be played right in the gallery.
+
+- **When and where a video was taken:** read from MP4, MOV, M4V and 3GP files, as Android phones and iPhones record them. When a video has no date taken, the file date is shown, marked with ~.
+- **Videos from WhatsApp:** WhatsApp removes the date taken and the location, so such a video's date is usually when it was sent, and it has no place.
+- **No date:** photos and videos without a date have their own choice in the filter, "No date".
 
 ### And more
 - **Deletion log:** everything deleted is recorded, with where it was and which copy stayed. Export it to Excel (CSV).
 - **Fast rescans:** next time, only new or changed files are checked.
 - **Hebrew and English.**
-- File types: JPG, PNG, HEIC (iPhone), WEBP, GIF, BMP, TIFF.
+- **Choose what to scan:** photos and videos, photos only, or videos only.
+- File types: photos JPG, PNG, HEIC (iPhone), WEBP, GIF, BMP, TIFF; videos MP4, MOV, M4V, AVI, MKV, WMV, 3GP, MTS, M2TS, MPG, MPEG, WEBM.
 
 ## Safety
 
-- **At least one copy always stays** of every duplicate photo.
+- **At least one copy always stays** of every duplicate photo or video.
 - Right before deleting, MultiPic checks again that the file has not changed and that the copy being kept really exists. If anything does not match, the file is not deleted.
 - On a drive with no Recycle Bin (a USB stick or network drive) it stops and asks what to do.
 - MultiPic writes nothing into your photo folder. Its own data is kept separately, in its data folder.
