@@ -54,7 +54,7 @@
 מראה תמונות שלא נפתחות או נפתחות רק בחלקן, וכשאפשר מציעה עותק תקין שלהן.
 
 ### גלריה
-כל התמונות במקום אחד, עם סינון לפי **שנה וחודש**, **טווח תאריכים**, **מדינה ועיר** (לפי מיקום הצילום) ו**תיקייה**. אפשר לסמן תמונות (גם טווח שלם עם Shift) ולמחוק אותן, או להעביר ולהעתיק אותן לתיקייה, למשל כדי ליצור אלבום.
+כל התמונות, ובלשונית נפרדת כל הסרטונים, במקום אחד, עם סינון לפי **שנה וחודש**, **טווח תאריכים**, **מדינה ועיר** (לפי מיקום הצילום) ו**תיקייה**. אפשר לסמן תמונות וסרטונים (גם טווח שלם עם Shift) ולמחוק אותם, או להעביר ולהעתיק אותם לתיקייה, למשל כדי ליצור אלבום.
 
 ### ועוד
 - **יומן מחיקות:** כל מה שנמחק נרשם, עם המקום שבו הוא היה והעותק שנשאר. אפשר לייצא לאקסל (CSV).
@@ -73,7 +73,7 @@
 
 1. מורידים את [`MultiPic-Setup.exe`](https://github.com/avi-rav/multipic-releases/releases/latest/download/MultiPic-Setup.exe) ומפעילים. לא נדרשות הרשאות מנהל.
 2. אם מופיעה אזהרה של Windows ("Windows protected your PC"), לוחצים **More info** ואז **Run anyway**. האזהרה מופיעה כי התוכנה לא חתומה דיגיטלית.
-3. התוכנה נפתחת בדפדפן ומופיעה בתפריט התחל.
+3. התוכנה נפתחת בחלון משלה (לא בדפדפן) ומופיעה בתפריט התחל. סגירת החלון סוגרת את התוכנה.
 
 גרסה חדשה מותקנת מעל הקודמת, וכל המידע נשמר. רשימת השינויים בכל גרסה: [דף הגרסאות](https://github.com/avi-rav/multipic-releases/releases).
 דרישות: Windows 10 או 11, 64 ביט.
@@ -152,7 +152,7 @@ Lists to review: **blurry** photos, **screenshots**, and **very small** images. 
 Shows photos that will not open, or open only partly, and offers a good copy when there is one.
 
 ### Gallery
-All your photos in one place, filtered by **year and month**, **date range**, **country and city** (from where the photo was taken) and **folder**. Select photos (a whole range with Shift) to delete them, or move or copy them into a folder, for example to make an album.
+All your photos, and on a separate tab all your videos, in one place, filtered by **year and month**, **date range**, **country and city** (from where the photo was taken) and **folder**. Select photos and videos (a whole range with Shift) to delete them, or move or copy them into a folder, for example to make an album.
 
 ### And more
 - **Deletion log:** everything deleted is recorded, with where it was and which copy stayed. Export it to Excel (CSV).
@@ -171,7 +171,7 @@ All your photos in one place, filtered by **year and month**, **date range**, **
 
 1. Download [`MultiPic-Setup.exe`](https://github.com/avi-rav/multipic-releases/releases/latest/download/MultiPic-Setup.exe) and run it. No administrator rights are needed.
 2. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**. The warning appears because the program is not digitally signed.
-3. MultiPic opens in your browser and is added to the Start menu.
+3. MultiPic opens in a window of its own (not in your browser) and is added to the Start menu. Closing the window closes the program.
 
 A new version installs over the old one and keeps your data. What changed in each version: [Releases](https://github.com/avi-rav/multipic-releases/releases).
 Requirements: Windows 10 or 11, 64-bit.
