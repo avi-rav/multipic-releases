@@ -8,7 +8,7 @@
 
 > 🔒 **עובדת בלי אינטרנט.** הקבצים שלך לא יוצאים מהמחשב, ושום מידע לא נשלח לשום מקום.
 >
-> 🧮 **בלי בינה מלאכותית (AI).** כל השוואה, סינון והמלצה מבוססים על חישובים קבועים ושקופים: השוואה של תוכן הקבצים, הפיקסלים והצליל, תאריך, מיקום, גודל וחדות. אין "ניחושים" של מודל, ואותה תיקייה תיתן תמיד את אותן תוצאות.
+> 🧮 **איתור כפילויות בלי בינה מלאכותית (AI).** כל השוואה, סינון והמלצה מבוססים על חישובים קבועים ושקופים: השוואה של תוכן הקבצים, הפיקסלים והצליל, תאריך, מיקום, גודל וחדות. אין "ניחושים" של מודל, ואותה תיקייה תיתן תמיד את אותן תוצאות. החריג היחיד הוא סינון הגלריה לפי אדם: הוא מפעיל במחשב שלך שני מודלים קטנים של זיהוי פנים, ורק כשתבקש.
 >
 > 🗑 **שום דבר לא נמחק בלי אישור שלך.** והמחיקה היא לסל המיחזור, כך שאפשר להתחרט.
 >
@@ -87,6 +87,16 @@
 - **סרטונים מוואטסאפ:** וואטסאפ מוחקת מהסרטון את תאריך הצילום ואת המיקום, ולכן התאריך שלו הוא בדרך כלל מועד השליחה, ואין לו מקום.
 - **בלי תאריך:** לתמונות ולסרטונים שאין להם תאריך יש אפשרות משלהם בסינון, "ללא תאריך".
 
+### אנשים בתמונות
+אפשר לסנן את גלריית התמונות לפי **אדם**. בחלון "אנשים…" לוחצים "חפש פנים בתמונות": התוכנה מוצאת את הפנים בתמונות ומקבצת פנים דומות לאדם אחד. החיפוש עובר על כל התמונות ולכן לוקח זמן, ואפשר לעצור אותו ולהמשיך אחר כך.
+
+- **הכול במחשב שלך:** הזיהוי נעשה בשני מודלים קטנים שמותקנים עם התוכנה, בלי אינטרנט. הוא רץ רק כשמבקשים, ואפשר למחוק את כל נתוני הפנים בכל עת.
+- **שמות ומיזוג:** נותנים שם לכל אדם, ואם אותו אדם זוהה כשני אנשים, ממזגים אותם. בשדה "אדם" בגלריה אפשר גם להקליד כדי לחפש.
+- **תיקון טעויות:** מעבירים פנים לאדם אחר, לאדם חדש, או לאדם חדש בשם שמקלידים במקום. מה שזוהה ואינו פנים כלל אפשר להסיר. תמונה שמופיעה אצל אדם שלא נמצא בה מתקנים ישר מהגלריה, ומסגרת מסמנת על אילו פנים מדובר.
+- **אפשר לבטל:** אחרי כל תיקון יש כפתור "בטל", ופנים שהוסרו בטעות אפשר להחזיר אחר כך.
+
+> ⚠ **הקיבוץ לאנשים הוא הערכה.** כדאי לעבור על הרשימה, לתת שמות ולמזג. זיהוי הפנים אף פעם לא משנה או מוחק תמונות.
+
 ### ספריית מוזיקה
 כל השירים ברשימה אחת, עם חיפוש לפי שם שיר, אמן, אלבום או שם קובץ, וסינון לפי **אמן**, **אלבום**, **ז'אנר**, **שנה**, **פורמט**, **איכות**, **אורך** ו**תיקייה**. לחיצה על שיר מנגנת אותו בנגן שבתחתית החלון, והנגן ממשיך לנגן גם כשעוברים ללשונית אחרת. אפשר לסמן שירים ולמחוק אותם, או להעביר ולהעתיק אותם לתיקייה. שירים בלי תגיות אפשר להציג לבד, כדי לסדר אותם.
 
@@ -143,7 +153,7 @@ abh2015@gmail.com
 
 > 🔒 **Works offline.** Your files never leave your computer, and no data is sent anywhere.
 >
-> 🧮 **No artificial intelligence (AI).** Every comparison, filter and recommendation is based on fixed, transparent calculations: comparing file contents, pixels and sound, date, place, size and sharpness. No model guesses anything, and the same folder always gives the same results.
+> 🧮 **Finding duplicates uses no artificial intelligence (AI).** Every comparison, filter and recommendation is based on fixed, transparent calculations: comparing file contents, pixels and sound, date, place, size and sharpness. No model guesses anything, and the same folder always gives the same results. The only exception is filtering the gallery by person: it runs two small face-recognition models on your computer, and only when you ask.
 >
 > 🗑 **Nothing is deleted without your approval.** Deleted files go to the Recycle Bin, so you can change your mind.
 >
@@ -221,6 +231,16 @@ All your photos in one place, and on a separate tab all your videos, sorted by t
 - **When and where a video was taken:** read from MP4, MOV, M4V and 3GP files, as Android phones and iPhones record them. When a video has no date taken, the file date is shown, marked with ~.
 - **Videos from WhatsApp:** WhatsApp removes the date taken and the location, so such a video's date is usually when it was sent, and it has no place.
 - **No date:** photos and videos without a date have their own choice in the filter, "No date".
+
+### People in photos
+The photo gallery can be filtered by **person**. In "People…", click "Search photos for faces": MultiPic finds the faces in your photos and groups similar ones as one person. The search goes through all the photos, so it takes a while, and it can be stopped and resumed later.
+
+- **Everything stays on your computer:** recognition uses two small models installed with the program, with no internet. It runs only when you ask, and all face data can be deleted at any time.
+- **Names and merging:** name each person, and if one person was recognised as two, merge them. In the gallery's "Person" field you can also type to search.
+- **Fixing mistakes:** move faces to another person, to a new person, or to a new person named on the spot. Anything recognised that is not a face can be removed. A photo shown under someone who is not in it is fixed right from the gallery, with a frame marking which face is meant.
+- **Undo:** every fix can be undone, and faces removed by mistake can be restored later.
+
+> ⚠ **Grouping into people is an estimate.** Review the list, add names and merge where needed. Face recognition never changes or deletes your photos.
 
 ### Music library
 All your songs in one list, searched by title, artist, album or file name, and filtered by **artist**, **album**, **genre**, **year**, **format**, **quality**, **length** and **folder**. Clicking a song plays it in the player at the bottom of the window, which keeps playing when you move to another tab. Select songs to delete them, or move or copy them into a folder. Songs without tags can be shown on their own, to tidy them up.
